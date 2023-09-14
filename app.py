@@ -4,9 +4,9 @@ import streamlit as st
 # st.set_option('deprecation.showfileUploaderEncoding', False)
 
 # Define a function to retrieve the API key
-@st.cache
+# @st.cache
 def get_api_key():
-    return st.secrets["api_key"]
+    return st.secrets["auth_token"]
 
 # Function to get latitude and longitude for a city
 def get_lat_lon(city_name, api_key):
