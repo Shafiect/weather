@@ -2,10 +2,8 @@ import requests
 import streamlit as st
 
 # Configure Streamlit to use the secrets file
-# st.set_option('deprecation.showfileUploaderEncoding', False)
 
 # Define a function to retrieve the API key
-# @st.cache
 def get_api_key():
     return st.secrets["auth_token"]
 
