@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Configure Streamlit to use the secrets file
-st.set_option('deprecation.showfileUploaderEncoding', False)
+# st.set_option('deprecation.showfileUploaderEncoding', False)
 
 # Define a function to retrieve the API key
 @st.cache
